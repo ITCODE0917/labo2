@@ -59,8 +59,6 @@ export default {
         const matchesAuthor = book.writer?.fullname?.toLowerCase().includes(searchQuery);
         const matchesEditor = book.editor?.toLowerCase().includes(searchQuery);
         const matchesDatePub = book.date.toLowerCase().includes(searchQuery);
-
-        // Return books that match any of the fields
         return matchesTitle || matchesAuthor || matchesEditor || matchesDatePub;
       });
     },

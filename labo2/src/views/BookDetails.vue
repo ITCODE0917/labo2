@@ -25,8 +25,8 @@
     },
     mounted() {
       const bookId = this.$route.params.id;
-      
-      this.book = books.find((b) => parseInt(b.isbn.isbn10.id) === parseInt(bookId));
+      this.book = books.find((b) => b.isbn && b.isbn.isbn10 && parseInt(b.isbn.isbn10.id) === parseInt(bookId));
+
     },
   };
   </script>

@@ -51,20 +51,4 @@
   };
   </script>
   
-  <style scoped>
-  .pagination {
-    margin-top: 20px;
-  }
-  .page-item.active .page-link {
-    background-color: #007bff;
-    border-color: #007bff;
-    color: white;
-  }
-  .page-item .page-link {
-    cursor: pointer;
-  }
-  .page-item.disabled .page-link {
-    cursor: not-allowed;
-  }
-  </style>
   
