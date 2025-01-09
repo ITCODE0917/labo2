@@ -1,0 +1,56 @@
+.card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+   
+    overflow: hidden;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-body {
+    padding: 1rem; 
+  }
+  
+  .card-title {
+    font-size: 1.1rem; 
+    font-weight: bolder;
+    text-transform: lowercase;
+}
+
+.card-title::first-letter {
+    text-transform: uppercase;
+  }
+  
+  .card-text {
+    font-size: 0.9rem; 
+  }
+  
+  .card-footer {
+    padding: 0.5rem 1rem; 
+  }
+  
+  .card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+  }
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+  .page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+  }
+  .page-item .page-link {
+    cursor: pointer;
+  }
+  .page-item.disabled .page-link {
+    cursor: not-allowed;
+  }
