@@ -1,0 +1,32 @@
+.card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    /* Ensure content does not overflow */
+    overflow: hidden;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-body {
+    padding: 1rem; /* Adjust padding for a smaller layout */
+  }
+  
+  .card-title {
+    font-size: 1.1rem; /* Slightly smaller font size */
+  }
+  
+  .card-text {
+    font-size: 0.9rem; /* Adjust text size to fit the card */
+  }
+  
+  .card-footer {
+    padding: 0.5rem 1rem; /* Smaller footer padding */
+  }
+  
+  .card-img-top {
+    height: 200px; /* Set a fixed height for the image */
+    object-fit: cover; /* Ensure the image covers the area proportionally */
+  }
+  
